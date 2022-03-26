@@ -1,0 +1,32 @@
+:root {
+  --black-color: #282a36;
+  --white-color: #f8f8f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+body {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  box-sizing: border-box;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 400 16px "Roboto", sans-serif;
+}
+
+h1 {
+  font: 700 32px "Roboto";
+}
