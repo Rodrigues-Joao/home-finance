@@ -1,16 +1,18 @@
-import Footer from './components/footer/Footer';
-import Header from './components/header/Header';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
 import Login from './pages/login/Login';
+import Home from './pages/home/Home';
 import './styles/global.scss'
 import './styles/input.scss'
 function App()
 {
   return (
-    <>
-      <Header />
-      <Login />
-      <Footer />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 export default App
