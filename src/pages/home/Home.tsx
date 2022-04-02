@@ -1,10 +1,15 @@
+import Footer from '../../components/footer/Footer'
+import Header from '../../components/header/Header'
 import './home.scss'
 
 function Home()
 {
   return (
     <>
-      <h1>Home Page</h1>
+      <Header />
+      <div className="">
+      </div>
+      <Footer />
     </>
 
   )
