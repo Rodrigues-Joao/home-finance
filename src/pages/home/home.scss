@@ -1,0 +1,69 @@
+div.containerHome {
+  margin-top: 50px;
+  div.totalCard {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    p + p {
+      margin-left: 5px;
+    }
+  }
+  div.filterMethods {
+    display: flex;
+    flex-direction: row;
+
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: space-around;
+    div.itemFiltered {
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      input {
+        margin-top: 0;
+      }
+      p {
+        margin-left: 5px;
+      }
+    }
+  }
+
+  div#separator {
+    margin-top: 50px;
+    border-bottom: 1px solid #f8f8f263;
+  }
+
+  div.debitCard {
+    padding: 20px;
+
+    h2 {
+      margin-bottom: 10px;
+    }
+    div.item {
+      padding: 10px;
+      align-items: center;
+      border-bottom: 1px solid #f8f8f263;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      div {
+        p#title {
+          font-size: 24px;
+        }
+        p#date {
+          font-size: 12px;
+          font-style: italic;
+          font-weight: 100;
+        }
+        p#paymentType {
+          font-style: italic;
+        }
+      }
+      p#value {
+        font-size: 20px;
+        font-weight: bold;
+        color: #ff5555;
+      }
+    }
+  }
+}
