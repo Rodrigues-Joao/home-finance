@@ -1,18 +1,11 @@
-div.footer {
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 10vh;
-  background-color: #6272a4;
-  margin-bottom: 0px;
+footer.footer {
   margin-top: auto;
+  margin-bottom: 0;
+  width: 100%;
+  padding: 32px 0;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: #6272a4;
+
   a {
     color: var(--white-color);
   }

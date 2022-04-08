@@ -39,31 +39,5 @@ div.containerHome {
     h2 {
       margin-bottom: 10px;
     }
-    div.item {
-      padding: 10px;
-      align-items: center;
-      border-bottom: 1px solid #f8f8f263;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      div {
-        p#title {
-          font-size: 24px;
-        }
-        p#date {
-          font-size: 12px;
-          font-style: italic;
-          font-weight: 100;
-        }
-        p#paymentType {
-          font-style: italic;
-        }
-      }
-      p#value {
-        font-size: 20px;
-        font-weight: bold;
-        color: #ff5555;
-      }
-    }
   }
 }

@@ -1,5 +1,6 @@
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
+import ListItem from '../../components/list-item/ListItem'
 import './home.scss'
 
 function Home()
@@ -30,46 +31,17 @@ function Home()
         <div className="debitCard">
 
           <h2>Útimos gastos:</h2>
-          <div className="item">
-            <div>
-              <p id="date">Segunda, 21 de Março</p>
-              <p id="title">Mercado</p>
-              <p id="paymentType">Crédito</p>
-            </div>
-            <p id="value">R$ 10,00</p>
-          </div>
-          <div className="item">
-            <div>
-              <p id="date">Segunda, 21 de Março</p>
-              <p id="title">Mercado</p>
-              <p id="paymentType">Crédito</p>
-            </div>
-            <p id="value">R$ 10,00</p>
-          </div>
-          <div className="item">
-            <div>
-              <p id="date">Segunda, 21 de Março</p>
-              <p id="title">Mercado</p>
-              <p id="paymentType">Crédito</p>
-            </div>
-            <p id="value">R$ 10,00</p>
-          </div>
-          <div className="item">
-            <div>
-              <p id="date">Segunda, 21 de Março</p>
-              <p id="title">Mercado</p>
-              <p id="paymentType">Crédito</p>
-            </div>
-            <p id="value">R$ 10,00</p>
-          </div>
-          <div className="item">
-            <div>
-              <p id="date">Segunda, 21 de Março</p>
-              <p id="title">Mercado</p>
-              <p id="paymentType">Crédito</p>
-            </div>
-            <p id="value">R$ 10,00</p>
-          </div>
+
+          <ListItem title="Mercado" paymentType="Crédito" value="R$ 20,00" date="Quinta-feira, 7 de Abril" />
+          <ListItem title="Mercado" paymentType="Débito" value="R$ 120,00" date="Quinta-feira, 7 de Abril" />
+          <ListItem title="Mercado" paymentType="Crédito" value="R$ 110,00" date="Quinta-feira, 7 de Abril" />
+          <ListItem title="Mercado" paymentType="Débito" value="R$ 103,00" date="Quinta-feira, 7 de Abril" />
+          <ListItem title="Mercado" paymentType="Crédito" value="R$ 50,00" date="Quinta-feira, 7 de Abril" />
+
+
+
+
+
 
 
         </div>
