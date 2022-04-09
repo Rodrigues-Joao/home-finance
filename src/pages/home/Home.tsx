@@ -1,6 +1,7 @@
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
 import ListItem from '../../components/list-item/ListItem'
+import TotalGraphic from '../../components/graphics/TotalGraphic'
 import './home.scss'
 
 function Home()
@@ -8,6 +9,7 @@ function Home()
   return (
     <>
       <Header />
+      <TotalGraphic />
       <div className="containerHome">
         <div className="totalCard">
           <p>R$ </p>
@@ -37,19 +39,10 @@ function Home()
           <ListItem title="Mercado" paymentType="Crédito" value="R$ 110,00" date="Quinta-feira, 7 de Abril" />
           <ListItem title="Mercado" paymentType="Débito" value="R$ 103,00" date="Quinta-feira, 7 de Abril" />
           <ListItem title="Mercado" paymentType="Crédito" value="R$ 50,00" date="Quinta-feira, 7 de Abril" />
-
-
-
-
-
-
-
         </div>
       </div>
       <Footer />
     </>
-
   )
 }
-
 export default Home

@@ -1,7 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
 import Login from './pages/login/Login';
 import Home from './pages/home/Home';
+import TotalGraphic from './components/graphics/TotalGraphic'
+
 import './styles/global.scss'
 import './styles/input.scss'
 function App()
