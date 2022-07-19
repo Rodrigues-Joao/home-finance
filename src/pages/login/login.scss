@@ -1,21 +1,54 @@
-div#login-card {
-  border-radius: 10px;
-  padding: 50px;
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  margin-top: 10em;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #bd93f9;
-  p {
-    margin-top: 10px;
-  }
+div#card{
+  margin-top:  7em;
+  width: 70%;
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media screen and (max-width: 414px) {
-  div#login-card {
-    width: 70%;
+div#card div.login {
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #bd93f9;
+  form p {
+    margin-top: 0.5em;
   }
+  div.card-title{
+    h3{
+      font-size:  2em;
+      margin-bottom: 1em;
+    }
+  }
+  
+  .forgot-password a{
+    margin-top: 0px;
+    font-size: 0.8em;
+  }
+  .forgot-password a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #d4b5ff;
+  }
+  
+}
+div#card div.create-account{
+  padding: 0 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+p{
+  margin-top: 2em;
+}
+  button{
+    margin: auto;
+  }
+
+}
+@media screen and (max-width: 414px) {
+
+  
 }
