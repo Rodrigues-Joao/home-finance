@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Login from './pages/login/Login';
 import Home from './pages/home/Home';
+import InsertCosts from './pages/costs/insert/Insert'
 import TotalGraphic from './components/graphics/TotalGraphic'
 
 import './styles/global.scss'
@@ -12,6 +13,7 @@ function App()
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/add-costs" element={<InsertCosts />} />
       </Routes>
     </BrowserRouter>
   )

@@ -28,17 +28,10 @@ function Login()
         </div>
         <div className="create-account">
           <h3>Não tem uma conta?</h3>
-          <p>Crie a sua conta clicando no botão abaixo:</p>
+          <p>Crie a sua conta já</p>
           <Button type="submit">Criar conta</Button>
         </div>
         </div>
-            
-
-        
-          
-        
-
-      
       <Footer />
     </>
   )
