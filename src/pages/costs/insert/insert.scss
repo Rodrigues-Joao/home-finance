@@ -1,0 +1,30 @@
+div.content {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5em;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);   
+    border-radius: 12px;
+    border: 1px solid #bd93f9;
+    padding: 2em;
+    .form{
+        display: flex;
+        flex-direction: column;
+       
+        h4{
+            text-transform: uppercase;
+            align-self: center;
+        }
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    div.content {
+        width: 80%;
+        margin-top: 2em;
+    }
+  }
+  
